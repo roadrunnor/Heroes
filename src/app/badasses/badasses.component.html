@@ -1,0 +1,12 @@
+<h2>My Badasses</h2>
+
+<ul class="heroes">
+    <li *ngFor="let badass of badasses">
+        <button [class.selected]="badass === selectedBadass" type="button" (click)="onSelect(badass)">
+            <span class="badge">{{badass.id}}</span>
+            <span class="name">{{badass.name}}</span>
+        </button>
+    </li>
+</ul>
+
+<app-badass-detail [badass]="selectedBadass"></app-badass-detail>
