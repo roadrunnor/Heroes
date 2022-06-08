@@ -15,7 +15,7 @@
     cursor: pointer;
     position: relative;
     left: 0;
-    background-color: #EEE;
+    background-color: #EEF;
     margin: .5em;
     padding: 0;
     border-radius: 4px;
@@ -26,17 +26,17 @@
 
 .heroes button:hover {
     color: #2c3a41;
-    background-color: #ffc6ea;
+    background-color: #EFF;
     left: .1em;
 }
 
 .heroes button:active {
-    background-color: #f10b99;
+    background-color: rgb(141, 245, 245);
     color: #fafafa;
 }
 
 .heroes button.selected {
-    background-color: #f10b99;
+    background-color: #aaa9ed;
     color: white;
 }
 
@@ -46,7 +46,9 @@
 }
 
 .heroes button.selected:active {
-    background-color: #f10b99;
+    background-color: rgb(141, 245, 245);
+    border-color: black;
+    border-width: 2px;
     color: white;
 }
 
