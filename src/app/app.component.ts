@@ -11,6 +11,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title_hero = 'Tower of Heroes';
-  title_badass = 'Tower of Bad*sses';
-
+  title_badass = 'Tower of Badasses';
+  title_pipe = 'Introducing Pipe'
 }
