@@ -1,6 +1,6 @@
 <h2>My Badasses</h2>
 
-<ul class="heroes">
+<ul class="badass">
     <li *ngFor="let badass of badasses">
         <button [class.selected]="badass === selectedBadass" type="button" (click)="onSelect(badass)">
             <span class="badge">{{badass.id}}</span>

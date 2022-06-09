@@ -1,21 +1,21 @@
-/* HeroesComponent's private CSS styles */
-.heroes {
+/* badassComponent's private CSS styles */
+.badass {
     margin: 0 0 2em 0;
     list-style-type: none;
     padding: 0;
     width: 15em;
 }
 
-.heroes li {
+.badass li {
     display: flex;
 }
 
-.heroes button {
+.badass button {
     flex: 1;
     cursor: pointer;
     position: relative;
     left: 0;
-    background-color: #EEE;
+    background-color: #EEF;
     margin: .5em;
     padding: 0;
     border-radius: 4px;
@@ -24,33 +24,33 @@
     height: 1.8em;
 }
 
-.heroes button:hover {
+.badass button:hover {
     color: #2c3a41;
-    background-color: #ffc6ea;
+    background-color: #EFF;
     left: .1em;
 }
 
-.heroes button:active {
-    background-color: #f10b99;
+.badass button:active {
+    background-color: rgb(141, 245, 245);
     color: #fafafa;
 }
 
-.heroes button.selected {
-    background-color: #f10b99;
+.badass button.selected {
+    background-color: #aaa9ed;
     color: white;
 }
 
-.heroes button.selected:hover {
+.badass button.selected:hover {
     background-color: #505050;
     color: white;
 }
 
-.heroes button.selected:active {
-    background-color: #f10b99;
+.badass button.selected:active {
+    background-color: rgb(141, 245, 245);
     color: white;
 }
 
-.heroes .badge {
+.badass .badge {
     display: inline-block;
     font-size: small;
     color: white;
@@ -61,6 +61,6 @@
     border-radius: 4px 0 0 4px;
 }
 
-.heroes .name {
+.badass .name {
     align-self: center;
 }
