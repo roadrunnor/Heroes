@@ -6,8 +6,27 @@ To display the HeroesComponent, you must add it to the template of the shell App
 Remember that app-heroes is the element selector for the HeroesComponent. So add an <app-heroes> element to the AppComponent template file, just below the title.
     
 -->
+
 <h1>{{title_hero}}</h1>
 <app-heroes></app-heroes>
 
-<h1>{{title_badass}}</h1>
-<app-bad-asses></app-bad-asses>
+<!-- <h1>{{title_badass}}</h1>
+<app-bad-asses></app-bad-asses> -->
+
+<h1>{{title_pipe}}</h1>
+<app-titlecase-pipe></app-titlecase-pipe>
+
+
+<h1>Binding to a property</h1>
+
+<p>assign a value to a target property for the image element's [src] property</p>
+<img alt="item" [src]="itemImageUrl">
+
+<p></p>
+<app-item-detail [childItem]="parentItem"></app-item-detail>
+
+<p>disable a button when the component says that it isUnchanged</p>
+<button type="button" [disabled]="isUnchanged">disabled button</button>
+
+<p>set a property of a directive</p>
+<p [ngClass]="classes">[ngClass] binding to the classes property making this blue</p>
