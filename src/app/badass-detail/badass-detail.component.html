@@ -1,9 +1,11 @@
 <div *ngIf="badass">
     <h2>{{badass.name | uppercase}} Details</h2>
-    <div><span>ID: </span>{{badass.id}}</div>
+  <div class="characterDetail" >
+    <div><span>ID </span>{{badass.id}}</div>
     <div>
-        <label for="badass-name">Modify game character name : </label>
-        <input id="badass-name" [(ngModel)]="badass.name" placeholder="name">
+      <label for="badass-name">Change Game Character Name </label>
+      <input id="badass-name" [(ngModel)]="badass.name" placeholder="name">
     </div>
-    <div><span>Is Bold : </span>{{badass.isBold}}</div>
-</div>
+    <div><span>Is Bold </span>{{badass.isBold}}</div>
+  </div>
+    </div>

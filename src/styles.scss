@@ -1,61 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
 /* Application-wide Styles */
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 250%;
-    margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+  margin-bottom: 0;
 }
 
 h2,
 h3 {
-    color: #444;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    margin-top: 1px;
-    margin-left: 3px;
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  margin: 1px 1px;
 }
 
 body {
-    margin: 2em;
-    background-color: #f1f3f5;
+  margin: 2em;
+  background-color: #f1f3f5;
 }
 
 body,
 input[type="text"],
 button {
-    color: #333;
-    font-family: Cambria, Georgia, serif;
+  font-family: Cambria, Georgia, serif;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .content {
-    margin: auto 25%;
-}
-
-button {
-    background-color: #eee;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    color: black;
-    font-size: 1.2rem;
-    padding: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+  margin: auto 25%;
 }
 
 button:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 button:disabled {
-    background-color: #eee;
-    color: #aaa;
-    cursor: auto;
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
 }
 
 /* everywhere else */
 * {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.characterDetail {
+  color: white;
+  background-color: #418;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+input#hero-name {
+  background-color: #EFF;
 }

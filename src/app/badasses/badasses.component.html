@@ -1,5 +1,3 @@
-<h2>My Badasses</h2>
-
 <ul class="badass">
     <li *ngFor="let badass of badasses">
         <button [class.selected]="badass === selectedBadass" type="button" (click)="onSelect(badass)">

@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ItemDetailComponent implements OnInit {
 
-  @Input() children = '';
+  @Input() childItem = '';
 
   constructor() { }
 

@@ -9,6 +9,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { BadassDetailComponent } from './badass-detail/badass-detail.component';
 import { TitlecasePipeComponent } from './titlecase-pipe/titlecase-pipe.component';
 import { ItemDetailComponent } from './item-detail/item-detail.component';
+import { HeroListComponent } from './hero-list/hero-list.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ItemDetailComponent } from './item-detail/item-detail.component';
     HeroDetailComponent,
     BadassDetailComponent,
     TitlecasePipeComponent,
-    ItemDetailComponent
+    ItemDetailComponent,
+    HeroListComponent
   ],
   imports: [
     BrowserModule,
